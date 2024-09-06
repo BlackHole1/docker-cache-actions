@@ -83,6 +83,12 @@ default: `false`
 
 If `true`, disable saving cache upon cache miss.
 
+#### `save-always`
+
+default: `false`
+
+If `true`, run the post step to save the cache even if another step before fails.
+
 ## Outputs
 
 ### `cache-hit`
